@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Число Авокадо - Решение задачек</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="tasks.html">Решение задачек</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Решение задачек</h1>
+        <div class="task">
+            <p>Задача 1: Сколько будет 2 + 2?</p>
+            <input type="text" id="answer1">
+        </div>
+        <div class="task">
+            <p>Задача 2: Чему равно 5 * 3?</p>
+            <input type="text" id="answer2">
+        </div>
+        <div class="task">
+            <p>Задача 3: Решите уравнение: 10 - 4 = ?</p>
+            <input type="text" id="answer3">
+        </div>
+        <div class="task">
+            <p>Задача 4: Найдите частное: 12 / 4 = ?</p>
+            <input type="text" id="answer4">
+        </div>
+        <button onclick="checkAnswers()">Проверить</button>
+        <p id="result"></p>
+    </main>
+    <script src="tasks.js"></script>
+</body>
+</html>
